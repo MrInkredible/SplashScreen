@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.spyboy.splashscreen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sliderActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".SignupActivity"/>
+        <activity android:name=".ResetPasswordActivity"/>
+        <activity android:name=".MainActivityDashboard"/>
+        <activity android:name="ProfileActivity"/>
+        <activity android:name=".ActivityLoginFaculty"/>
+        <activity android:name=".FirstActivity"/>
+        <activity android:name=".SplashScreenActivity"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".Calender"/>
+        <activity android:name=".FacultyDashboard"/>
+        <activity android:name=".About"/>
+        <activity android:name=".AppBase"/>
+        <activity android:name=".AppCompatPreferenceActivity"/>
+        <activity android:name=".attendanceActivity"/>
+        <activity android:name=".cgpa_activity"/>
+        <activity android:name=".Edit_Student"/>
+        <activity android:name=".make_schedule"/>
+        <activity android:name=".noteActivity"/>
+        <activity android:name=".noteCreate"/>
+        <activity android:name=".profile_activity"/>
+        <activity android:name=".Result_activity"/>
+        <activity android:name=".scheduler"/>
+        <activity android:name=".SettingsActivity"/>
+
+    </application>
+
+</manifest>
